@@ -3,56 +3,8 @@
 
 |№| Название проекта | Суть и результат | 	Навыки и инструменты |
 |----------|----------|----------|----------|
-|1   |Анализ бизнес-показателей на <br> основе данных по продажам | Cell 3   | 1   |
+|1   |Анализ бизнес-показателей на <br> основе данных по продажам | Расчет основных маркетинговых метрик, когортный анализ,<br> оценка успешности рекламной кампании, рекомендации для <br> маркетингового отдела по наиболее выгодным источникам трафика и когортам.   | Python, pandas, numpy, seaborn <br>  Продуктовые метрики, когортный анализ, RFM  |
  
-| 2    | Создание дашборда по основным метрикам e-commerce магазина   | Cell 6   |2    | 
-| 3    | Синтетическое тестирование  | Cell 9   |3    |
+| 2    | Дашборд для  e-commerce | Разработка структуры БД Clickhouse по логам магазина. <br> Создание дашборда отражающиего основные продуктовые метрики | Datalens, Clickhouse,  <br>  Docker, SQL  | 
+| 3    | Тестирование дизайна АБ теста <br> для сервиса доставки еды | Тестирование гипотез на исторических данных с целью определения оптимальных параметров проведения АБ теста  |Проверка гипотез, АБ-тесты   |
 
-<table>
-    <tr>
-        <th>Влад</th>
-        <th>Даун 2</th>
-    </tr>
-    <tr>
-        <td>Анализ бизнес-показателей на 
-          основе данных по продажам</td>
-        <td>Ячейка 2.1</td>
-    </tr>
-    <tr>
-        <td>Ячейка 1.2</td>
-        <td>Ячейка 2.2</td>
-    </tr>
-</table>
-
-No, this is not possible with GitHub-Flavored Markdown. As the spec explains (emphasis added):
-
-The remainder of the table’s rows may vary in the number of cells. If there are a number of cells fewer than the number of cells in the header row, empty cells are inserted. If there are greater, the excess is ignored:
-
-Of course, you can always fall back to raw HTML.
-
-<table>
-    <thead>
-        <tr>
-            <th>Layer 1</th>
-            <th>Layer 2</th>
-            <th>Layer 3</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td rowspan=4>L1 Name</td>
-            <td rowspan=2>L2 Name A</td>
-            <td>L3 Name A</td>
-        </tr>
-        <tr>
-            <td>L3 Name B</td>
-        </tr>
-        <tr>
-            <td rowspan=2>L2 Name B</td>
-            <td>L3 Name C</td>
-        </tr>
-        <tr>
-            <td>L3 Name D</td>
-        </tr>
-    </tbody>
-</table>
