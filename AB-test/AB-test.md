@@ -41,12 +41,6 @@
 
 Импортируем все необходимые библиотеки и методы
 
-
-```python
-
-```
-
-
 ```python
 import pandas as pd
 import numpy as np
