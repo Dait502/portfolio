@@ -602,7 +602,7 @@ sns.barplot(x = 'Segment', y = 'Sales', data = rev_seg)
 
 
     
-![png](output_23_1.png)
+![png](pictures/output_23_1.png)
     
 
 
@@ -627,7 +627,7 @@ sns.barplot(x = 'City', y = 'Sales', hue = 'Segment', data = rev_city)
 
 
     
-![png](output_25_1.png)
+![png](pictures/output_25_1.png)
     
 
 
@@ -648,7 +648,7 @@ sns.barplot(x = 'Market', y = 'Sales', data = markets)
 
 
     
-![png](output_27_1.png)
+![png](pictures/output_27_1.png)
     
 
 
@@ -669,7 +669,7 @@ sns.barplot(x = 'Market', y = 'Sales', data = markets)
 
 
     
-![png](output_29_1.png)
+![png](pictures/output_29_1.png)
     
 
 
@@ -688,7 +688,7 @@ sns.barplot(x = 'Country', y = 'Sales', data = markets)
 
 
     
-![png](output_30_1.png)
+![png](pictures/output_30_1.png)
     
 
 
@@ -713,7 +713,7 @@ sns.boxplot(x = 'Ship Mode', y = 'Delivery Days', data = df)
 
 
     
-![png](output_33_1.png)
+![png](pictures/output_33_1.png)
     
 
 
@@ -736,7 +736,7 @@ sns.barplot(x = 'Category',y='Sales',
 
 
     
-![png](output_36_1.png)
+![png](pictures/output_36_1.png)
     
 
 
@@ -756,7 +756,7 @@ sns.barplot(x = 'Sales',y='Sub-Category',
 
 
     
-![png](output_37_1.png)
+![png](pictures/output_37_1.png)
     
 
 
@@ -901,7 +901,7 @@ for i in years.columns[1:]:
 
 
     
-![png](output_48_0.png)
+![png](pictures/output_48_0.png)
     
 
 
@@ -1137,7 +1137,7 @@ for i in means.columns[1:]:
 
 
     
-![png](output_58_0.png)
+![png](pictures/output_58_0.png)
     
 
 
@@ -1180,19 +1180,19 @@ plt.show()
 
 
     
-![png](output_61_0.png)
+![png](pictures/output_61_0.png)
     
 
 
 
     
-![png](output_61_1.png)
+![png](pictures/output_61_1.png)
     
 
 
 
     
-![png](output_61_2.png)
+![png](pictures/output_61_2.png)
     
 
 
@@ -1213,7 +1213,7 @@ plt.show()
 
 
     
-![png](output_64_0.png)
+![png](pictures/output_64_0.png)
     
 
 
@@ -1235,7 +1235,7 @@ sns.lineplot(x = months.date_month, y = months['mean_check'])
 
 
     
-![png](output_66_1.png)
+![png](pictures/output_66_1.png)
     
 
 
@@ -1379,7 +1379,7 @@ sns.heatmap(
 
 
     
-![png](output_81_1.png)
+![png](pictures/output_81_1.png)
     
 
 
@@ -1413,7 +1413,7 @@ sns.heatmap(
 
 
     
-![png](output_83_1.png)
+![png](pictures/output_83_1.png)
     
 
 
@@ -1464,7 +1464,7 @@ sns.heatmap( # строим график
 
 
     
-![png](output_87_1.png)
+![png](pictures/output_87_1.png)
     
 
 
@@ -1512,7 +1512,7 @@ sns.heatmap(
 
 
     
-![png](output_93_1.png)
+![png](pictures/output_93_1.png)
     
 
 
@@ -1548,7 +1548,7 @@ sns.heatmap(
 
 
     
-![png](output_97_1.png)
+![png](pictures/output_97_1.png)
     
 
 
@@ -1578,7 +1578,7 @@ sns.heatmap(
 
 
     
-![png](output_99_1.png)
+![png](pictures/output_99_1.png)
     
 
 
@@ -1645,7 +1645,7 @@ rfm[['recency', 'monetary', 'frequency']].hist(figsize=(12,6), bins=30);
 
 
     
-![png](output_111_0.png)
+![png](pictures/output_111_0.png)
     
 
 
@@ -1726,7 +1726,7 @@ squarify.plot(sizes=y.values,label = y.index,
 
 
     
-![png](output_122_1.png)
+![png](pictures/output_122_1.png)
     
 
 
