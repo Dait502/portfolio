@@ -232,7 +232,7 @@ df.cost_of_the_order.hist()
 
 
     
-![png](output_22_1.png)
+![png](pictures/output_22_1.png)
     
 
 
@@ -376,7 +376,7 @@ sns.ecdfplot(results_AA).plot([0,1],[0,1], 'k--')
 
 
     
-![png](output_43_2.png)
+![png](pictures/output_43_2.png)
     
 
 
@@ -429,7 +429,7 @@ sns.ecdfplot(results_AB).plot([0,1],[0,1], 'k--')
 
 
     
-![png](output_48_2.png)
+![png](pictures/output_48_2.png)
     
 
 
@@ -616,7 +616,7 @@ plt.legend()
 
 
     
-![png](output_63_1.png)
+![png](pictures/output_63_1.png)
     
 
 
@@ -664,7 +664,7 @@ plt.legend()
 
 
     
-![png](output_67_1.png)
+![png](pictures/output_67_1.png)
     
 
 
@@ -733,7 +733,7 @@ sns.lineplot(x = real_corr,y=var_reduc)
 
 
     
-![png](output_74_1.png)
+![png](pictures/output_74_1.png)
     
 
 
@@ -779,7 +779,7 @@ sns.lineplot(x = corrs,y=sizes)
 
 
     
-![png](output_78_1.png)
+![png](pictures/output_78_1.png)
     
 
 
@@ -837,7 +837,7 @@ plt.legend()
 
 
     
-![png](output_82_1.png)
+![png](pictures/output_82_1.png)
     
 
 
