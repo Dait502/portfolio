@@ -1,0 +1,35 @@
+version: '3'
+services:
+  clickhouse:
+    image: yandex/clickhouse-server
+    restart: always
+    container_name: clickhouse-server
+    volumes:
+      - data_dir:/var/lib/clickhouse
+      - ./config.xml:/etc/clickhouse-server/config.d/config.xml # Файл конфигурации
+    environment:
+      CLICKHOUSE_USER: igor
+      CLICKHOUSE_PASSWORD: secret
+    ulimits:
+      nofile: 262144 
+    networks:
+      - datalens_default
+  jupyter:
+    container_name: my_notebook
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/jovyan/
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+    - JUPYTER_TOKEN=easy
+    networks:
+      - datalens_default
+
+networks:
+  datalens_default:
+    external: true
+volumes:
+  data_dir:
