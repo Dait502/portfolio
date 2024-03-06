@@ -655,22 +655,6 @@ sns.barplot(x = 'Market', y = 'Sales', data = markets)
 Интересно, значительную часть выручки магазин получает из Азиатско-Тихоакеанского региона.
 
 
-```python
-markets = df.groupby('Market', as_index=False).nunique('customer_id')
-sns.barplot(x = 'Market', y = 'Sales', data = markets)
-```
-
-
-
-
-    <AxesSubplot:xlabel='Market', ylabel='Sales'>
-
-
-
-
-    
-![png](pictures/output_29_1.png)
-    
 
 
 
@@ -760,7 +744,7 @@ sns.barplot(x = 'Sales',y='Sub-Category',
     
 
 
-По выручке с открывом побеждают телефоны
+Технологические товары самые продаваемые
 
 ## Основные показатели <a class="anchor" id="2_2"></a>
 
