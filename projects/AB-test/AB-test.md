@@ -34,17 +34,12 @@
 Нулевая гипотеза: программы не отличаются и наблюдаемые различия случайны <br>
 Альтернативная гипотеза: программы отличаются <br>
 Тест будет двусторонним, чтобы отследить изменения в обе стороны. <br>
-Уровень значимости начимости составит 5%, а мощность 80% <br>
+Уровень значимости составит 5%, а мощность 80% <br>
 
 
 ## Данные <a class="anchor" id="1_3"></a>
 
 Импортируем все необходимые библиотеки и методы
-
-
-```python
-
-```
 
 
 ```python
@@ -68,19 +63,7 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
